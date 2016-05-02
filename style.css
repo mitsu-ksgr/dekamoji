@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*========================================================
+    Base
+  ========================================================*/
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #FBFCFF;
+    background-size: cover;
+    color: #066C91;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+/*========================================================
+    Input Form
+  ========================================================*/
+.input-form {
+  width: 100%;
+  margin: auto;
+}
+.input-form textarea {
+  display: block;
+  margin: auto;
+
+  width: 80%;
+  resize: vertical;
+}
+
+
+/*========================================================
+    Dekamoji Form
+  ========================================================*/
+.dekamoji-area {
+  width: 100%;
+  height: 240px;
+}
+.dekamoji {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 25px 10px;
+  border-radius: 8px;
+  background: #94B0DA;
+  font-size: 14rem;
+  line-height: 0.9;
+  color: #FBFCFF;
+}
+
